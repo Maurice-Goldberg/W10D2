@@ -1,0 +1,84 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(4, 163, 163);
+}
+
+.app{
+  width: 700px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  padding: 20px;
+  font-size: 50px;
+  margin: 0 auto;
+  color: white;
+  font-family: papyrus;
+}
+
+h2 {
+  font-size: x-large;
+}
+
+.grid {
+  padding-top: 25px;
+  display: flex;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  flex-direction: column;
+  
+}
+
+.revealed {
+}
+
+.row {
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+
+.tile {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  margin: 0;
+  border: 2px outset;
+  text-align: center;
+  background-color: cyan;
+  font-family: papyrus;
+  /* border-style: outset; */
+
+}
+
+.tile:hover {
+  background-color: rgb(0, 211, 211);
+}
+
+.revealed{
+  border-style: inset;
+  background-color: rgb(0, 211, 211);
+}
+
+.modal {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  background-color: white;
+  top: 100px;
+  margin-left: -186px;
+  left: 50%;
+  z-index: 2;
+  box-shadow: 10px 5px 5px darkcyan;
+  visibility: hidden;
+}
+
+.shown {
+  visibility: visible;
+}
+
+button {
+  
+}
